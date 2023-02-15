@@ -10,11 +10,11 @@ from multiprocessing import Pool, Lock, cpu_count
 THREADS = cpu_count()  # set to 1 for debugging
 
 TESTDATA_DIR = os.path.abspath(os.path.dirname(__file__))
-WORKSPACE_DIR = os.path.dirname(TESTDATA_DIR)
+PROJECT_DIR = os.path.dirname(TESTDATA_DIR)
 
-RESULT_DIR = os.path.join(WORKSPACE_DIR, 'result')  # temp dir
+RESULT_DIR = os.path.join(PROJECT_DIR, 'tests', 'result')  # temp dir
 
-BUILD_DIR = os.path.join(WORKSPACE_DIR, 'student', 'build')
+BUILD_DIR = os.path.join(PROJECT_DIR, 'build')
 PARSER_EXECUTABLE = os.path.join(BUILD_DIR, 'parser')
 SEMANTIC_EXECUTABLE = os.path.join(BUILD_DIR, 'semantic')
 IR_EXECUTABLE = os.path.join(BUILD_DIR, 'ir-optimizer')
@@ -197,7 +197,7 @@ def check_testcase(directory: str, testcase: str, pa: int) -> int:
 def check_testcases_in_directory(directory: str, pa: int) -> tuple[int, int]:
     if not (os.path.exists(directory) and os.path.isdir(directory)):
         print(f'[{directory} does not exist]')
-        return 0, 0
+        return 1, 1  # avoid division by zero
     print(f'[checking {directory}]')
     testcases: list[str] = natsorted([x[:-3]
                                       for x in os.listdir(directory) if x.endswith('.py')])
@@ -213,12 +213,23 @@ def check_testcases_in_directory(directory: str, pa: int) -> tuple[int, int]:
 
 def check_pa(pa: int):
     pa_directory = os.path.join(TESTDATA_DIR, f'pa{pa}')
-    subdirectories = ['sample']
-    subdirectories.append('sp23')
+
+    subdirectories = ['sample', 'fuzz', 'student']
+    distribution = [60, 10, 5]
+    print(f'[subdirectories: {subdirectories}]')
+    print(f'[distribution: {distribution}]')
+
     results = [
         check_testcases_in_directory(os.path.join(pa_directory, sub), pa)
         for sub in subdirectories
     ]
+    print(f'[results: {results}]')
+
+    scores = [x[0] / x[1] for x in results]
+    overall_score = sum([x * y for x, y in zip(scores, distribution)])
+    print(f'[overall score: {overall_score}]')
+    if overall_score == sum(distribution):
+        cprint('Congratulations! You passed all test cases!', 'green')
 
 
 if __name__ == '__main__':
