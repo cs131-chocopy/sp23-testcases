@@ -227,9 +227,9 @@ def check_pa(pa: int):
 
     scores = [x[0] / x[1] for x in results]
     overall_score = sum([x * y for x, y in zip(scores, distribution)])
-    print(f'[overall score: {overall_score}]')
     if overall_score == sum(distribution):
         cprint('Congratulations! You passed all test cases!', 'green')
+    print(f'[overall score: {overall_score}]')
 
 
 if __name__ == '__main__':
