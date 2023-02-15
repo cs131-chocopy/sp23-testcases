@@ -54,6 +54,18 @@ def compare_ast_node(student_ast_node: dict, reference_ast_node: dict, verbose: 
             student_values = [student_value]
             reference_values = [reference_value]
 
+        if len(student_values) != len(reference_values):
+            if verbose:
+                cprint(f'Expected {len(reference_values)} values, but {len(student_values)} values are found',
+                       'yellow')
+                print('Your AST values',
+                      colored(list(student_values), 'yellow'))
+                print('Expected AST values',
+                      colored(list(reference_values), 'yellow'))
+                print('Your AST', colored(student_ast_node, 'dark_grey'))
+                print('Expected AST',
+                      colored(reference_ast_node, 'dark_grey'))
+            return False
         for [student_value, reference_value] in zip(student_values, reference_values):
             if type(student_value) != type(reference_value):
                 if verbose:
