@@ -227,7 +227,7 @@ def check_pa(pa: int):
     pa_directory = os.path.join(TESTDATA_DIR, f'pa{pa}')
 
     subdirectories = ['sample', 'fuzz', 'student']
-    distribution = [60, 10, 5]
+    distribution = [60, 5, 10]
     print(f'[subdirectories: {subdirectories}]')
     print(f'[distribution: {distribution}]')
 
