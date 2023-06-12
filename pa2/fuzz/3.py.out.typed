@@ -1,0 +1,599 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 17, 164 ],
+  "declarations" : [ {
+    "kind" : "ClassDef",
+    "location" : [ 1, 1, 2, 9 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 7, 1, 7 ],
+      "name" : "b"
+    },
+    "superClass" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 9, 1, 14 ],
+      "name" : "object"
+    },
+    "declarations" : [ ]
+  }, {
+    "kind" : "ClassDef",
+    "location" : [ 3, 1, 7, 0 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 3, 7, 3, 9 ],
+      "name" : "c1_"
+    },
+    "superClass" : {
+      "kind" : "Identifier",
+      "location" : [ 3, 11, 3, 16 ],
+      "name" : "object"
+    },
+    "declarations" : [ {
+      "kind" : "VarDef",
+      "location" : [ 4, 5, 4, 16 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 4, 5, 4, 10 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 4, 5, 4, 5 ],
+          "name" : "a"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 4, 7, 4, 10 ],
+          "className" : "bool"
+        }
+      },
+      "value" : {
+        "kind" : "BooleanLiteral",
+        "location" : [ 4, 12, 4, 16 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "value" : false
+      }
+    }, {
+      "kind" : "FuncDef",
+      "location" : [ 5, 5, 6, 22 ],
+      "name" : {
+        "kind" : "Identifier",
+        "location" : [ 5, 9, 5, 11 ],
+        "name" : "l49"
+      },
+      "params" : [ {
+        "kind" : "TypedVar",
+        "location" : [ 5, 13, 5, 22 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 5, 13, 5, 16 ],
+          "name" : "self"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 5, 18, 5, 22 ],
+          "className" : "c1_"
+        }
+      } ],
+      "returnType" : {
+        "kind" : "ClassType",
+        "location" : [ 5, 26, 5, 29 ],
+        "className" : "bool"
+      },
+      "declarations" : [ ],
+      "statements" : [ {
+        "kind" : "ReturnStmt",
+        "location" : [ 6, 9, 6, 21 ],
+        "value" : {
+          "kind" : "MemberExpr",
+          "location" : [ 6, 16, 6, 21 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "bool"
+          },
+          "object" : {
+            "kind" : "Identifier",
+            "location" : [ 6, 16, 6, 19 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "c1_"
+            },
+            "name" : "self"
+          },
+          "member" : {
+            "kind" : "Identifier",
+            "location" : [ 6, 21, 6, 21 ],
+            "name" : "a"
+          }
+        }
+      } ]
+    } ]
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 7, 1, 7, 10 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 7, 1, 7, 5 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 7, 1, 7, 1 ],
+        "name" : "M"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 7, 3, 7, 5 ],
+        "className" : "c1_"
+      }
+    },
+    "value" : {
+      "kind" : "NoneLiteral",
+      "location" : [ 7, 7, 7, 10 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "<None>"
+      }
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 8, 1, 8, 11 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 8, 1, 8, 6 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 8, 1, 8, 1 ],
+        "name" : "_"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 8, 3, 8, 6 ],
+        "className" : "bool"
+      }
+    },
+    "value" : {
+      "kind" : "BooleanLiteral",
+      "location" : [ 8, 8, 8, 11 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "value" : true
+    }
+  }, {
+    "kind" : "FuncDef",
+    "location" : [ 12, 1, 16, 0 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 12, 5, 12, 5 ],
+      "name" : "J"
+    },
+    "params" : [ ],
+    "returnType" : {
+      "kind" : "ClassType",
+      "location" : [ 12, 12, 12, 12 ],
+      "className" : "b"
+    },
+    "declarations" : [ ],
+    "statements" : [ {
+      "kind" : "ExprStmt",
+      "location" : [ 13, 5, 13, 21 ],
+      "expr" : {
+        "kind" : "BinaryExpr",
+        "location" : [ 13, 5, 13, 21 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "left" : {
+          "kind" : "UnaryExpr",
+          "location" : [ 13, 5, 13, 12 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "bool"
+          },
+          "operator" : "not",
+          "operand" : {
+            "kind" : "BooleanLiteral",
+            "location" : [ 13, 9, 13, 12 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "bool"
+            },
+            "value" : true
+          }
+        },
+        "operator" : "and",
+        "right" : {
+          "kind" : "BooleanLiteral",
+          "location" : [ 13, 18, 13, 21 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "bool"
+          },
+          "value" : true
+        }
+      }
+    }, {
+      "kind" : "WhileStmt",
+      "location" : [ 14, 5, 16, 0 ],
+      "condition" : {
+        "kind" : "BinaryExpr",
+        "location" : [ 14, 11, 14, 27 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "left" : {
+          "kind" : "BooleanLiteral",
+          "location" : [ 14, 11, 14, 15 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "bool"
+          },
+          "value" : false
+        },
+        "operator" : "and",
+        "right" : {
+          "kind" : "MethodCallExpr",
+          "location" : [ 14, 21, 14, 27 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "bool"
+          },
+          "method" : {
+            "kind" : "MemberExpr",
+            "location" : [ 14, 21, 14, 25 ],
+            "inferredType" : {
+              "kind" : "FuncType",
+              "parameters" : [ {
+                "kind" : "ClassValueType",
+                "className" : "c1_"
+              } ],
+              "returnType" : {
+                "kind" : "ClassValueType",
+                "className" : "bool"
+              }
+            },
+            "object" : {
+              "kind" : "Identifier",
+              "location" : [ 14, 21, 14, 21 ],
+              "inferredType" : {
+                "kind" : "ClassValueType",
+                "className" : "c1_"
+              },
+              "name" : "M"
+            },
+            "member" : {
+              "kind" : "Identifier",
+              "location" : [ 14, 23, 14, 25 ],
+              "name" : "l49"
+            }
+          },
+          "args" : [ ]
+        }
+      },
+      "body" : [ {
+        "kind" : "ExprStmt",
+        "location" : [ 15, 9, 15, 12 ],
+        "expr" : {
+          "kind" : "BooleanLiteral",
+          "location" : [ 15, 9, 15, 12 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "bool"
+          },
+          "value" : true
+        }
+      } ]
+    } ]
+  } ],
+  "statements" : [ {
+    "kind" : "AssignStmt",
+    "location" : [ 16, 1, 16, 7 ],
+    "targets" : [ {
+      "kind" : "Identifier",
+      "location" : [ 16, 1, 16, 1 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "c1_"
+      },
+      "name" : "M"
+    } ],
+    "value" : {
+      "kind" : "CallExpr",
+      "location" : [ 16, 3, 16, 7 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "c1_"
+      },
+      "function" : {
+        "kind" : "Identifier",
+        "location" : [ 16, 3, 16, 5 ],
+        "name" : "c1_"
+      },
+      "args" : [ ]
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 17, 1, 17, 163 ],
+    "expr" : {
+      "kind" : "IfExpr",
+      "location" : [ 17, 1, 17, 163 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "condition" : {
+        "kind" : "BooleanLiteral",
+        "location" : [ 17, 10, 17, 13 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "value" : true
+      },
+      "thenExpr" : {
+        "kind" : "BooleanLiteral",
+        "location" : [ 17, 1, 17, 5 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "value" : false
+      },
+      "elseExpr" : {
+        "kind" : "IfExpr",
+        "location" : [ 17, 20, 17, 163 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "condition" : {
+          "kind" : "IfExpr",
+          "location" : [ 17, 29, 17, 52 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "bool"
+          },
+          "condition" : {
+            "kind" : "BooleanLiteral",
+            "location" : [ 17, 37, 17, 41 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "bool"
+            },
+            "value" : false
+          },
+          "thenExpr" : {
+            "kind" : "BooleanLiteral",
+            "location" : [ 17, 29, 17, 32 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "bool"
+            },
+            "value" : true
+          },
+          "elseExpr" : {
+            "kind" : "BooleanLiteral",
+            "location" : [ 17, 48, 17, 52 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "bool"
+            },
+            "value" : false
+          }
+        },
+        "thenExpr" : {
+          "kind" : "BooleanLiteral",
+          "location" : [ 17, 20, 17, 24 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "bool"
+          },
+          "value" : false
+        },
+        "elseExpr" : {
+          "kind" : "IfExpr",
+          "location" : [ 17, 60, 17, 163 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "bool"
+          },
+          "condition" : {
+            "kind" : "UnaryExpr",
+            "location" : [ 17, 74, 17, 81 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "bool"
+            },
+            "operator" : "not",
+            "operand" : {
+              "kind" : "BinaryExpr",
+              "location" : [ 17, 78, 17, 81 ],
+              "inferredType" : {
+                "kind" : "ClassValueType",
+                "className" : "bool"
+              },
+              "left" : {
+                "kind" : "IntegerLiteral",
+                "location" : [ 17, 78, 17, 78 ],
+                "inferredType" : {
+                  "kind" : "ClassValueType",
+                  "className" : "int"
+                },
+                "value" : 1
+              },
+              "operator" : ">=",
+              "right" : {
+                "kind" : "IntegerLiteral",
+                "location" : [ 17, 81, 17, 81 ],
+                "inferredType" : {
+                  "kind" : "ClassValueType",
+                  "className" : "int"
+                },
+                "value" : 2
+              }
+            }
+          },
+          "thenExpr" : {
+            "kind" : "UnaryExpr",
+            "location" : [ 17, 60, 17, 68 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "bool"
+            },
+            "operator" : "not",
+            "operand" : {
+              "kind" : "BooleanLiteral",
+              "location" : [ 17, 64, 17, 68 ],
+              "inferredType" : {
+                "kind" : "ClassValueType",
+                "className" : "bool"
+              },
+              "value" : false
+            }
+          },
+          "elseExpr" : {
+            "kind" : "IfExpr",
+            "location" : [ 17, 88, 17, 163 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "bool"
+            },
+            "condition" : {
+              "kind" : "BinaryExpr",
+              "location" : [ 17, 104, 17, 120 ],
+              "inferredType" : {
+                "kind" : "ClassValueType",
+                "className" : "bool"
+              },
+              "left" : {
+                "kind" : "UnaryExpr",
+                "location" : [ 17, 104, 17, 112 ],
+                "inferredType" : {
+                  "kind" : "ClassValueType",
+                  "className" : "bool"
+                },
+                "operator" : "not",
+                "operand" : {
+                  "kind" : "BooleanLiteral",
+                  "location" : [ 17, 108, 17, 112 ],
+                  "inferredType" : {
+                    "kind" : "ClassValueType",
+                    "className" : "bool"
+                  },
+                  "value" : false
+                }
+              },
+              "operator" : "or",
+              "right" : {
+                "kind" : "BooleanLiteral",
+                "location" : [ 17, 117, 17, 120 ],
+                "inferredType" : {
+                  "kind" : "ClassValueType",
+                  "className" : "bool"
+                },
+                "value" : true
+              }
+            },
+            "thenExpr" : {
+              "kind" : "BinaryExpr",
+              "location" : [ 17, 88, 17, 98 ],
+              "inferredType" : {
+                "kind" : "ClassValueType",
+                "className" : "bool"
+              },
+              "left" : {
+                "kind" : "BooleanLiteral",
+                "location" : [ 17, 88, 17, 92 ],
+                "inferredType" : {
+                  "kind" : "ClassValueType",
+                  "className" : "bool"
+                },
+                "value" : false
+              },
+              "operator" : "and",
+              "right" : {
+                "kind" : "Identifier",
+                "location" : [ 17, 98, 17, 98 ],
+                "inferredType" : {
+                  "kind" : "ClassValueType",
+                  "className" : "bool"
+                },
+                "name" : "_"
+              }
+            },
+            "elseExpr" : {
+              "kind" : "IfExpr",
+              "location" : [ 17, 127, 17, 163 ],
+              "inferredType" : {
+                "kind" : "ClassValueType",
+                "className" : "bool"
+              },
+              "condition" : {
+                "kind" : "BooleanLiteral",
+                "location" : [ 17, 144, 17, 148 ],
+                "inferredType" : {
+                  "kind" : "ClassValueType",
+                  "className" : "bool"
+                },
+                "value" : false
+              },
+              "thenExpr" : {
+                "kind" : "BinaryExpr",
+                "location" : [ 17, 127, 17, 139 ],
+                "inferredType" : {
+                  "kind" : "ClassValueType",
+                  "className" : "bool"
+                },
+                "left" : {
+                  "kind" : "BooleanLiteral",
+                  "location" : [ 17, 127, 17, 131 ],
+                  "inferredType" : {
+                    "kind" : "ClassValueType",
+                    "className" : "bool"
+                  },
+                  "value" : false
+                },
+                "operator" : "or",
+                "right" : {
+                  "kind" : "BooleanLiteral",
+                  "location" : [ 17, 136, 17, 139 ],
+                  "inferredType" : {
+                    "kind" : "ClassValueType",
+                    "className" : "bool"
+                  },
+                  "value" : true
+                }
+              },
+              "elseExpr" : {
+                "kind" : "UnaryExpr",
+                "location" : [ 17, 156, 17, 163 ],
+                "inferredType" : {
+                  "kind" : "ClassValueType",
+                  "className" : "bool"
+                },
+                "operator" : "not",
+                "operand" : {
+                  "kind" : "BooleanLiteral",
+                  "location" : [ 17, 160, 17, 163 ],
+                  "inferredType" : {
+                    "kind" : "ClassValueType",
+                    "className" : "bool"
+                  },
+                  "value" : true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

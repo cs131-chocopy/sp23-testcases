@@ -1,0 +1,428 @@
+{
+  "declarations": [
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "NoneLiteral"
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "arr"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "elementType": {
+            "className": "int",
+            "kind": "ClassType"
+          },
+          "kind": "ListType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "IntegerLiteral",
+        "value": 0
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "i"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "int",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "declarations": [
+        {
+          "kind": "GlobalDecl",
+          "variable": {
+            "kind": "Identifier",
+            "name": "i"
+          }
+        },
+        {
+          "kind": "VarDef",
+          "value": {
+            "kind": "IntegerLiteral",
+            "value": 0
+          },
+          "var": {
+            "identifier": {
+              "kind": "Identifier",
+              "name": "key"
+            },
+            "kind": "TypedVar",
+            "type": {
+              "className": "int",
+              "kind": "ClassType"
+            }
+          }
+        },
+        {
+          "kind": "VarDef",
+          "value": {
+            "kind": "IntegerLiteral",
+            "value": 0
+          },
+          "var": {
+            "identifier": {
+              "kind": "Identifier",
+              "name": "j"
+            },
+            "kind": "TypedVar",
+            "type": {
+              "className": "int",
+              "kind": "ClassType"
+            }
+          }
+        },
+        {
+          "kind": "VarDef",
+          "value": {
+            "kind": "IntegerLiteral",
+            "value": 0
+          },
+          "var": {
+            "identifier": {
+              "kind": "Identifier",
+              "name": "count"
+            },
+            "kind": "TypedVar",
+            "type": {
+              "className": "int",
+              "kind": "ClassType"
+            }
+          }
+        }
+      ],
+      "kind": "FuncDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "insertionSort"
+      },
+      "params": [
+        {
+          "identifier": {
+            "kind": "Identifier",
+            "name": "arr"
+          },
+          "kind": "TypedVar",
+          "type": {
+            "elementType": {
+              "className": "int",
+              "kind": "ClassType"
+            },
+            "kind": "ListType"
+          }
+        }
+      ],
+      "returnType": {
+        "className": "<None>",
+        "kind": "ClassType"
+      },
+      "statements": [
+        {
+          "body": [
+            {
+              "kind": "AssignStmt",
+              "targets": [
+                {
+                  "kind": "Identifier",
+                  "name": "key"
+                }
+              ],
+              "value": {
+                "kind": "Identifier",
+                "name": "i"
+              }
+            },
+            {
+              "kind": "AssignStmt",
+              "targets": [
+                {
+                  "kind": "Identifier",
+                  "name": "j"
+                }
+              ],
+              "value": {
+                "kind": "BinaryExpr",
+                "left": {
+                  "kind": "Identifier",
+                  "name": "count"
+                },
+                "operator": "-",
+                "right": {
+                  "kind": "IntegerLiteral",
+                  "value": 1
+                }
+              }
+            },
+            {
+              "body": [
+                {
+                  "kind": "AssignStmt",
+                  "targets": [
+                    {
+                      "index": {
+                        "kind": "BinaryExpr",
+                        "left": {
+                          "kind": "Identifier",
+                          "name": "j"
+                        },
+                        "operator": "+",
+                        "right": {
+                          "kind": "IntegerLiteral",
+                          "value": 1
+                        }
+                      },
+                      "kind": "IndexExpr",
+                      "list": {
+                        "kind": "Identifier",
+                        "name": "arr"
+                      }
+                    }
+                  ],
+                  "value": {
+                    "index": {
+                      "kind": "Identifier",
+                      "name": "j"
+                    },
+                    "kind": "IndexExpr",
+                    "list": {
+                      "kind": "Identifier",
+                      "name": "arr"
+                    }
+                  }
+                },
+                {
+                  "kind": "AssignStmt",
+                  "targets": [
+                    {
+                      "kind": "Identifier",
+                      "name": "j"
+                    }
+                  ],
+                  "value": {
+                    "kind": "BinaryExpr",
+                    "left": {
+                      "kind": "Identifier",
+                      "name": "j"
+                    },
+                    "operator": "-",
+                    "right": {
+                      "kind": "IntegerLiteral",
+                      "value": 1
+                    }
+                  }
+                }
+              ],
+              "condition": {
+                "kind": "BinaryExpr",
+                "left": {
+                  "kind": "BinaryExpr",
+                  "left": {
+                    "kind": "Identifier",
+                    "name": "j"
+                  },
+                  "operator": ">=",
+                  "right": {
+                    "kind": "IntegerLiteral",
+                    "value": 0
+                  }
+                },
+                "operator": "and",
+                "right": {
+                  "kind": "BinaryExpr",
+                  "left": {
+                    "kind": "Identifier",
+                    "name": "key"
+                  },
+                  "operator": "<",
+                  "right": {
+                    "index": {
+                      "kind": "Identifier",
+                      "name": "j"
+                    },
+                    "kind": "IndexExpr",
+                    "list": {
+                      "kind": "Identifier",
+                      "name": "arr"
+                    }
+                  }
+                }
+              },
+              "kind": "WhileStmt"
+            },
+            {
+              "kind": "AssignStmt",
+              "targets": [
+                {
+                  "index": {
+                    "kind": "BinaryExpr",
+                    "left": {
+                      "kind": "Identifier",
+                      "name": "j"
+                    },
+                    "operator": "+",
+                    "right": {
+                      "kind": "IntegerLiteral",
+                      "value": 1
+                    }
+                  },
+                  "kind": "IndexExpr",
+                  "list": {
+                    "kind": "Identifier",
+                    "name": "arr"
+                  }
+                }
+              ],
+              "value": {
+                "kind": "Identifier",
+                "name": "key"
+              }
+            },
+            {
+              "kind": "AssignStmt",
+              "targets": [
+                {
+                  "kind": "Identifier",
+                  "name": "count"
+                }
+              ],
+              "value": {
+                "kind": "BinaryExpr",
+                "left": {
+                  "kind": "Identifier",
+                  "name": "count"
+                },
+                "operator": "+",
+                "right": {
+                  "kind": "IntegerLiteral",
+                  "value": 1
+                }
+              }
+            }
+          ],
+          "identifier": {
+            "kind": "Identifier",
+            "name": "i"
+          },
+          "iterable": {
+            "kind": "Identifier",
+            "name": "arr"
+          },
+          "kind": "ForStmt"
+        }
+      ]
+    }
+  ],
+  "errors": {
+    "errors": [],
+    "kind": "Errors"
+  },
+  "kind": "Program",
+  "statements": [
+    {
+      "kind": "AssignStmt",
+      "targets": [
+        {
+          "kind": "Identifier",
+          "name": "arr"
+        }
+      ],
+      "value": {
+        "elements": [
+          {
+            "kind": "IntegerLiteral",
+            "value": 12
+          },
+          {
+            "kind": "IntegerLiteral",
+            "value": 11
+          },
+          {
+            "kind": "IntegerLiteral",
+            "value": 13
+          },
+          {
+            "kind": "IntegerLiteral",
+            "value": 5
+          },
+          {
+            "kind": "IntegerLiteral",
+            "value": 6
+          }
+        ],
+        "kind": "ListExpr"
+      }
+    },
+    {
+      "expr": {
+        "args": [
+          {
+            "kind": "Identifier",
+            "name": "arr"
+          }
+        ],
+        "function": {
+          "kind": "Identifier",
+          "name": "insertionSort"
+        },
+        "kind": "CallExpr"
+      },
+      "kind": "ExprStmt"
+    },
+    {
+      "expr": {
+        "args": [
+          {
+            "kind": "StringLiteral",
+            "value": "Sorted array is:"
+          }
+        ],
+        "function": {
+          "kind": "Identifier",
+          "name": "print"
+        },
+        "kind": "CallExpr"
+      },
+      "kind": "ExprStmt"
+    },
+    {
+      "body": [
+        {
+          "expr": {
+            "args": [
+              {
+                "kind": "Identifier",
+                "name": "i"
+              }
+            ],
+            "function": {
+              "kind": "Identifier",
+              "name": "print"
+            },
+            "kind": "CallExpr"
+          },
+          "kind": "ExprStmt"
+        }
+      ],
+      "identifier": {
+        "kind": "Identifier",
+        "name": "i"
+      },
+      "iterable": {
+        "kind": "Identifier",
+        "name": "arr"
+      },
+      "kind": "ForStmt"
+    }
+  ]
+}

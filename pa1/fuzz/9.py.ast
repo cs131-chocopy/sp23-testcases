@@ -1,0 +1,159 @@
+{
+  "declarations": [
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "IntegerLiteral",
+        "value": 1
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "a"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "int",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "IntegerLiteral",
+        "value": 2
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "b"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "int",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "IntegerLiteral",
+        "value": 4
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "c"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "int",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "IntegerLiteral",
+        "value": 5
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "d"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "int",
+          "kind": "ClassType"
+        }
+      }
+    }
+  ],
+  "errors": {
+    "errors": [],
+    "kind": "Errors"
+  },
+  "kind": "Program",
+  "statements": [
+    {
+      "expr": {
+        "args": [
+          {
+            "kind": "BinaryExpr",
+            "left": {
+              "kind": "BinaryExpr",
+              "left": {
+                "kind": "Identifier",
+                "name": "a"
+              },
+              "operator": "+",
+              "right": {
+                "kind": "BinaryExpr",
+                "left": {
+                  "kind": "BinaryExpr",
+                  "left": {
+                    "kind": "Identifier",
+                    "name": "b"
+                  },
+                  "operator": "*",
+                  "right": {
+                    "kind": "Identifier",
+                    "name": "c"
+                  }
+                },
+                "operator": "//",
+                "right": {
+                  "kind": "IntegerLiteral",
+                  "value": 4
+                }
+              }
+            },
+            "operator": "-",
+            "right": {
+              "kind": "UnaryExpr",
+              "operand": {
+                "kind": "BinaryExpr",
+                "left": {
+                  "kind": "BinaryExpr",
+                  "left": {
+                    "kind": "IntegerLiteral",
+                    "value": 8
+                  },
+                  "operator": "+",
+                  "right": {
+                    "kind": "Identifier",
+                    "name": "d"
+                  }
+                },
+                "operator": "-",
+                "right": {
+                  "kind": "BinaryExpr",
+                  "left": {
+                    "kind": "IntegerLiteral",
+                    "value": 12
+                  },
+                  "operator": "*",
+                  "right": {
+                    "kind": "IntegerLiteral",
+                    "value": 8
+                  }
+                }
+              },
+              "operator": "-"
+            }
+          }
+        ],
+        "function": {
+          "kind": "Identifier",
+          "name": "print"
+        },
+        "kind": "CallExpr"
+      },
+      "kind": "ExprStmt"
+    }
+  ]
+}

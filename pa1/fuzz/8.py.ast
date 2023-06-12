@@ -1,0 +1,381 @@
+{
+  "declarations": [
+    {
+      "declarations": [
+        {
+          "declarations": [],
+          "kind": "FuncDef",
+          "name": {
+            "kind": "Identifier",
+            "name": "__init__"
+          },
+          "params": [
+            {
+              "identifier": {
+                "kind": "Identifier",
+                "name": "self"
+              },
+              "kind": "TypedVar",
+              "type": {
+                "className": "a",
+                "kind": "ClassType"
+              }
+            }
+          ],
+          "returnType": {
+            "className": "<None>",
+            "kind": "ClassType"
+          },
+          "statements": [
+            {
+              "expr": {
+                "args": [
+                  {
+                    "kind": "StringLiteral",
+                    "value": "a"
+                  }
+                ],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "print"
+                },
+                "kind": "CallExpr"
+              },
+              "kind": "ExprStmt"
+            }
+          ]
+        }
+      ],
+      "kind": "ClassDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "a"
+      },
+      "superClass": {
+        "kind": "Identifier",
+        "name": "object"
+      }
+    },
+    {
+      "declarations": [
+        {
+          "declarations": [],
+          "kind": "FuncDef",
+          "name": {
+            "kind": "Identifier",
+            "name": "__init__"
+          },
+          "params": [
+            {
+              "identifier": {
+                "kind": "Identifier",
+                "name": "self"
+              },
+              "kind": "TypedVar",
+              "type": {
+                "className": "b",
+                "kind": "ClassType"
+              }
+            }
+          ],
+          "returnType": {
+            "className": "<None>",
+            "kind": "ClassType"
+          },
+          "statements": [
+            {
+              "expr": {
+                "args": [
+                  {
+                    "kind": "StringLiteral",
+                    "value": "b"
+                  }
+                ],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "print"
+                },
+                "kind": "CallExpr"
+              },
+              "kind": "ExprStmt"
+            }
+          ]
+        }
+      ],
+      "kind": "ClassDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "b"
+      },
+      "superClass": {
+        "kind": "Identifier",
+        "name": "a"
+      }
+    },
+    {
+      "declarations": [
+        {
+          "declarations": [],
+          "kind": "FuncDef",
+          "name": {
+            "kind": "Identifier",
+            "name": "__init__"
+          },
+          "params": [
+            {
+              "identifier": {
+                "kind": "Identifier",
+                "name": "self"
+              },
+              "kind": "TypedVar",
+              "type": {
+                "className": "c",
+                "kind": "ClassType"
+              }
+            }
+          ],
+          "returnType": {
+            "className": "<None>",
+            "kind": "ClassType"
+          },
+          "statements": [
+            {
+              "expr": {
+                "args": [
+                  {
+                    "kind": "StringLiteral",
+                    "value": "c"
+                  }
+                ],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "print"
+                },
+                "kind": "CallExpr"
+              },
+              "kind": "ExprStmt"
+            }
+          ]
+        }
+      ],
+      "kind": "ClassDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "c"
+      },
+      "superClass": {
+        "kind": "Identifier",
+        "name": "b"
+      }
+    },
+    {
+      "declarations": [
+        {
+          "declarations": [],
+          "kind": "FuncDef",
+          "name": {
+            "kind": "Identifier",
+            "name": "__init__"
+          },
+          "params": [
+            {
+              "identifier": {
+                "kind": "Identifier",
+                "name": "self"
+              },
+              "kind": "TypedVar",
+              "type": {
+                "className": "d",
+                "kind": "ClassType"
+              }
+            }
+          ],
+          "returnType": {
+            "className": "<None>",
+            "kind": "ClassType"
+          },
+          "statements": [
+            {
+              "expr": {
+                "args": [
+                  {
+                    "kind": "StringLiteral",
+                    "value": "d"
+                  }
+                ],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "print"
+                },
+                "kind": "CallExpr"
+              },
+              "kind": "ExprStmt"
+            }
+          ]
+        }
+      ],
+      "kind": "ClassDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "d"
+      },
+      "superClass": {
+        "kind": "Identifier",
+        "name": "c"
+      }
+    },
+    {
+      "declarations": [
+        {
+          "declarations": [],
+          "kind": "FuncDef",
+          "name": {
+            "kind": "Identifier",
+            "name": "__init__"
+          },
+          "params": [
+            {
+              "identifier": {
+                "kind": "Identifier",
+                "name": "self"
+              },
+              "kind": "TypedVar",
+              "type": {
+                "className": "e",
+                "kind": "ClassType"
+              }
+            }
+          ],
+          "returnType": {
+            "className": "<None>",
+            "kind": "ClassType"
+          },
+          "statements": [
+            {
+              "expr": {
+                "args": [
+                  {
+                    "kind": "StringLiteral",
+                    "value": "e"
+                  }
+                ],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "print"
+                },
+                "kind": "CallExpr"
+              },
+              "kind": "ExprStmt"
+            }
+          ]
+        }
+      ],
+      "kind": "ClassDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "e"
+      },
+      "superClass": {
+        "kind": "Identifier",
+        "name": "d"
+      }
+    },
+    {
+      "declarations": [
+        {
+          "declarations": [],
+          "kind": "FuncDef",
+          "name": {
+            "kind": "Identifier",
+            "name": "__init__"
+          },
+          "params": [
+            {
+              "identifier": {
+                "kind": "Identifier",
+                "name": "self"
+              },
+              "kind": "TypedVar",
+              "type": {
+                "className": "g",
+                "kind": "ClassType"
+              }
+            }
+          ],
+          "returnType": {
+            "className": "<None>",
+            "kind": "ClassType"
+          },
+          "statements": [
+            {
+              "expr": {
+                "args": [
+                  {
+                    "kind": "StringLiteral",
+                    "value": "g"
+                  }
+                ],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "print"
+                },
+                "kind": "CallExpr"
+              },
+              "kind": "ExprStmt"
+            }
+          ]
+        }
+      ],
+      "kind": "ClassDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "g"
+      },
+      "superClass": {
+        "kind": "Identifier",
+        "name": "e"
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "NoneLiteral"
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "sb"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "a",
+          "kind": "ClassType"
+        }
+      }
+    }
+  ],
+  "errors": {
+    "errors": [],
+    "kind": "Errors"
+  },
+  "kind": "Program",
+  "statements": [
+    {
+      "kind": "AssignStmt",
+      "targets": [
+        {
+          "kind": "Identifier",
+          "name": "sb"
+        }
+      ],
+      "value": {
+        "args": [],
+        "function": {
+          "kind": "Identifier",
+          "name": "g"
+        },
+        "kind": "CallExpr"
+      }
+    }
+  ]
+}

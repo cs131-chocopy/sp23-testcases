@@ -1,0 +1,51 @@
+{
+  "declarations": [],
+  "errors": {
+    "errors": [],
+    "kind": "Errors"
+  },
+  "kind": "Program",
+  "statements": [
+    {
+      "expr": {
+        "args": [
+          {
+            "condition": {
+              "kind": "BooleanLiteral",
+              "value": false
+            },
+            "elseExpr": {
+              "elements": [
+                {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                }
+              ],
+              "kind": "ListExpr"
+            },
+            "kind": "IfExpr",
+            "thenExpr": {
+              "elements": [
+                {
+                  "kind": "IntegerLiteral",
+                  "value": 1
+                },
+                {
+                  "kind": "IntegerLiteral",
+                  "value": 12
+                }
+              ],
+              "kind": "ListExpr"
+            }
+          }
+        ],
+        "function": {
+          "kind": "Identifier",
+          "name": "print"
+        },
+        "kind": "CallExpr"
+      },
+      "kind": "ExprStmt"
+    }
+  ]
+}

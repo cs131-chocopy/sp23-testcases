@@ -1,0 +1,114 @@
+{
+  "declarations": [
+    {
+      "declarations": [],
+      "kind": "ClassDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "J"
+      },
+      "superClass": {
+        "kind": "Identifier",
+        "name": "object"
+      }
+    },
+    {
+      "declarations": [
+        {
+          "kind": "VarDef",
+          "value": {
+            "kind": "IntegerLiteral",
+            "value": 1
+          },
+          "var": {
+            "identifier": {
+              "kind": "Identifier",
+              "name": "b"
+            },
+            "kind": "TypedVar",
+            "type": {
+              "className": "int",
+              "kind": "ClassType"
+            }
+          }
+        }
+      ],
+      "kind": "ClassDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "B"
+      },
+      "superClass": {
+        "kind": "Identifier",
+        "name": "object"
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "NoneLiteral"
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "h_"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "J",
+          "kind": "ClassType"
+        }
+      }
+    }
+  ],
+  "errors": {
+    "errors": [],
+    "kind": "Errors"
+  },
+  "kind": "Program",
+  "statements": [
+    {
+      "expr": {
+        "args": [
+          {
+            "kind": "BinaryExpr",
+            "left": {
+              "kind": "BinaryExpr",
+              "left": {
+                "kind": "MemberExpr",
+                "member": {
+                  "kind": "Identifier",
+                  "name": "b"
+                },
+                "object": {
+                  "args": [],
+                  "function": {
+                    "kind": "Identifier",
+                    "name": "B"
+                  },
+                  "kind": "CallExpr"
+                }
+              },
+              "operator": "%",
+              "right": {
+                "kind": "IntegerLiteral",
+                "value": 2
+              }
+            },
+            "operator": "==",
+            "right": {
+              "kind": "IntegerLiteral",
+              "value": 1
+            }
+          }
+        ],
+        "function": {
+          "kind": "Identifier",
+          "name": "print"
+        },
+        "kind": "CallExpr"
+      },
+      "kind": "ExprStmt"
+    }
+  ]
+}

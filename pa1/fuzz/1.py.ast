@@ -1,0 +1,189 @@
+{
+  "declarations": [
+    {
+      "declarations": [
+        {
+          "kind": "VarDef",
+          "value": {
+            "kind": "StringLiteral",
+            "value": "asdf"
+          },
+          "var": {
+            "identifier": {
+              "kind": "Identifier",
+              "name": "c"
+            },
+            "kind": "TypedVar",
+            "type": {
+              "className": "str",
+              "kind": "ClassType"
+            }
+          }
+        },
+        {
+          "declarations": [],
+          "kind": "FuncDef",
+          "name": {
+            "kind": "Identifier",
+            "name": "__init__"
+          },
+          "params": [
+            {
+              "identifier": {
+                "kind": "Identifier",
+                "name": "self"
+              },
+              "kind": "TypedVar",
+              "type": {
+                "className": "_c",
+                "kind": "ClassType"
+              }
+            }
+          ],
+          "returnType": {
+            "className": "<None>",
+            "kind": "ClassType"
+          },
+          "statements": []
+        }
+      ],
+      "kind": "ClassDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "_c"
+      },
+      "superClass": {
+        "kind": "Identifier",
+        "name": "object"
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "StringLiteral",
+        "value": "None"
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "c"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "str",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "StringLiteral",
+        "value": ""
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "d"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "str",
+          "kind": "ClassType"
+        }
+      }
+    }
+  ],
+  "errors": {
+    "errors": [],
+    "kind": "Errors"
+  },
+  "kind": "Program",
+  "statements": [
+    {
+      "kind": "AssignStmt",
+      "targets": [
+        {
+          "kind": "Identifier",
+          "name": "c"
+        }
+      ],
+      "value": {
+        "kind": "MemberExpr",
+        "member": {
+          "kind": "Identifier",
+          "name": "c"
+        },
+        "object": {
+          "args": [],
+          "function": {
+            "kind": "Identifier",
+            "name": "_c"
+          },
+          "kind": "CallExpr"
+        }
+      }
+    },
+    {
+      "body": [
+        {
+          "condition": {
+            "condition": {
+              "kind": "BooleanLiteral",
+              "value": false
+            },
+            "elseExpr": {
+              "kind": "BinaryExpr",
+              "left": {
+                "kind": "UnaryExpr",
+                "operand": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "operator": "not"
+              },
+              "operator": "or",
+              "right": {
+                "kind": "BooleanLiteral",
+                "value": true
+              }
+            },
+            "kind": "IfExpr",
+            "thenExpr": {
+              "kind": "UnaryExpr",
+              "operand": {
+                "kind": "UnaryExpr",
+                "operand": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "operator": "not"
+              },
+              "operator": "not"
+            }
+          },
+          "elseBody": [
+            {
+              "expr": {
+                "kind": "BooleanLiteral",
+                "value": true
+              },
+              "kind": "ExprStmt"
+            }
+          ],
+          "kind": "IfStmt",
+          "thenBody": []
+        }
+      ],
+      "identifier": {
+        "kind": "Identifier",
+        "name": "d"
+      },
+      "iterable": {
+        "kind": "Identifier",
+        "name": "c"
+      },
+      "kind": "ForStmt"
+    }
+  ]
+}

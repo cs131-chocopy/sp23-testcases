@@ -1,0 +1,103 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 1, 35 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "ExprStmt",
+    "location" : [ 1, 1, 1, 34 ],
+    "expr" : {
+      "kind" : "CallExpr",
+      "location" : [ 1, 1, 1, 34 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "<None>"
+      },
+      "function" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 1, 1, 5 ],
+        "inferredType" : {
+          "kind" : "FuncType",
+          "parameters" : [ {
+            "kind" : "ClassValueType",
+            "className" : "object"
+          } ],
+          "returnType" : {
+            "kind" : "ClassValueType",
+            "className" : "<None>"
+          }
+        },
+        "name" : "print"
+      },
+      "args" : [ {
+        "kind" : "IfExpr",
+        "location" : [ 1, 7, 1, 33 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "object"
+        },
+        "condition" : {
+          "kind" : "BooleanLiteral",
+          "location" : [ 1, 17, 1, 21 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "bool"
+          },
+          "value" : false
+        },
+        "thenExpr" : {
+          "kind" : "ListExpr",
+          "location" : [ 1, 7, 1, 12 ],
+          "inferredType" : {
+            "kind" : "ListValueType",
+            "elementType" : {
+              "kind" : "ClassValueType",
+              "className" : "int"
+            }
+          },
+          "elements" : [ {
+            "kind" : "IntegerLiteral",
+            "location" : [ 1, 8, 1, 8 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "int"
+            },
+            "value" : 1
+          }, {
+            "kind" : "IntegerLiteral",
+            "location" : [ 1, 10, 1, 11 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "int"
+            },
+            "value" : 12
+          } ]
+        },
+        "elseExpr" : {
+          "kind" : "ListExpr",
+          "location" : [ 1, 28, 1, 33 ],
+          "inferredType" : {
+            "kind" : "ListValueType",
+            "elementType" : {
+              "kind" : "ClassValueType",
+              "className" : "bool"
+            }
+          },
+          "elements" : [ {
+            "kind" : "BooleanLiteral",
+            "location" : [ 1, 29, 1, 32 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "bool"
+            },
+            "value" : true
+          } ]
+        }
+      } ]
+    }
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

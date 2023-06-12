@@ -1,0 +1,256 @@
+{
+  "declarations": [
+    {
+      "declarations": [
+        {
+          "declarations": [
+            {
+              "declarations": [
+                {
+                  "declarations": [
+                    {
+                      "declarations": [
+                        {
+                          "declarations": [],
+                          "kind": "FuncDef",
+                          "name": {
+                            "kind": "Identifier",
+                            "name": "g_"
+                          },
+                          "params": [],
+                          "returnType": {
+                            "className": "<None>",
+                            "kind": "ClassType"
+                          },
+                          "statements": [
+                            {
+                              "expr": {
+                                "args": [
+                                  {
+                                    "kind": "StringLiteral",
+                                    "value": "g"
+                                  }
+                                ],
+                                "function": {
+                                  "kind": "Identifier",
+                                  "name": "print"
+                                },
+                                "kind": "CallExpr"
+                              },
+                              "kind": "ExprStmt"
+                            }
+                          ]
+                        }
+                      ],
+                      "kind": "FuncDef",
+                      "name": {
+                        "kind": "Identifier",
+                        "name": "e_"
+                      },
+                      "params": [],
+                      "returnType": {
+                        "className": "<None>",
+                        "kind": "ClassType"
+                      },
+                      "statements": [
+                        {
+                          "expr": {
+                            "args": [],
+                            "function": {
+                              "kind": "Identifier",
+                              "name": "g_"
+                            },
+                            "kind": "CallExpr"
+                          },
+                          "kind": "ExprStmt"
+                        },
+                        {
+                          "expr": {
+                            "args": [
+                              {
+                                "kind": "StringLiteral",
+                                "value": "e"
+                              }
+                            ],
+                            "function": {
+                              "kind": "Identifier",
+                              "name": "print"
+                            },
+                            "kind": "CallExpr"
+                          },
+                          "kind": "ExprStmt"
+                        }
+                      ]
+                    }
+                  ],
+                  "kind": "FuncDef",
+                  "name": {
+                    "kind": "Identifier",
+                    "name": "d_"
+                  },
+                  "params": [],
+                  "returnType": {
+                    "className": "<None>",
+                    "kind": "ClassType"
+                  },
+                  "statements": [
+                    {
+                      "expr": {
+                        "args": [],
+                        "function": {
+                          "kind": "Identifier",
+                          "name": "e_"
+                        },
+                        "kind": "CallExpr"
+                      },
+                      "kind": "ExprStmt"
+                    },
+                    {
+                      "expr": {
+                        "args": [
+                          {
+                            "kind": "StringLiteral",
+                            "value": "d"
+                          }
+                        ],
+                        "function": {
+                          "kind": "Identifier",
+                          "name": "print"
+                        },
+                        "kind": "CallExpr"
+                      },
+                      "kind": "ExprStmt"
+                    }
+                  ]
+                }
+              ],
+              "kind": "FuncDef",
+              "name": {
+                "kind": "Identifier",
+                "name": "c_"
+              },
+              "params": [],
+              "returnType": {
+                "className": "<None>",
+                "kind": "ClassType"
+              },
+              "statements": [
+                {
+                  "expr": {
+                    "args": [],
+                    "function": {
+                      "kind": "Identifier",
+                      "name": "d_"
+                    },
+                    "kind": "CallExpr"
+                  },
+                  "kind": "ExprStmt"
+                },
+                {
+                  "expr": {
+                    "args": [
+                      {
+                        "kind": "StringLiteral",
+                        "value": "c"
+                      }
+                    ],
+                    "function": {
+                      "kind": "Identifier",
+                      "name": "print"
+                    },
+                    "kind": "CallExpr"
+                  },
+                  "kind": "ExprStmt"
+                }
+              ]
+            }
+          ],
+          "kind": "FuncDef",
+          "name": {
+            "kind": "Identifier",
+            "name": "b_"
+          },
+          "params": [],
+          "returnType": {
+            "className": "<None>",
+            "kind": "ClassType"
+          },
+          "statements": [
+            {
+              "expr": {
+                "args": [],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "c_"
+                },
+                "kind": "CallExpr"
+              },
+              "kind": "ExprStmt"
+            },
+            {
+              "expr": {
+                "args": [
+                  {
+                    "kind": "StringLiteral",
+                    "value": "b"
+                  }
+                ],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "print"
+                },
+                "kind": "CallExpr"
+              },
+              "kind": "ExprStmt"
+            }
+          ]
+        }
+      ],
+      "kind": "FuncDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "a_"
+      },
+      "params": [],
+      "returnType": {
+        "className": "<None>",
+        "kind": "ClassType"
+      },
+      "statements": [
+        {
+          "expr": {
+            "args": [],
+            "function": {
+              "kind": "Identifier",
+              "name": "b_"
+            },
+            "kind": "CallExpr"
+          },
+          "kind": "ExprStmt"
+        },
+        {
+          "expr": {
+            "args": [
+              {
+                "kind": "StringLiteral",
+                "value": "a"
+              }
+            ],
+            "function": {
+              "kind": "Identifier",
+              "name": "print"
+            },
+            "kind": "CallExpr"
+          },
+          "kind": "ExprStmt"
+        }
+      ]
+    }
+  ],
+  "errors": {
+    "errors": [],
+    "kind": "Errors"
+  },
+  "kind": "Program",
+  "statements": []
+}

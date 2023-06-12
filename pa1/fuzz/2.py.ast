@@ -1,0 +1,1092 @@
+{
+  "declarations": [
+    {
+      "declarations": [],
+      "kind": "FuncDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "s1971"
+      },
+      "params": [],
+      "returnType": {
+        "className": "bool",
+        "kind": "ClassType"
+      },
+      "statements": [
+        {
+          "kind": "ReturnStmt",
+          "value": {
+            "kind": "BooleanLiteral",
+            "value": true
+          }
+        }
+      ]
+    },
+    {
+      "declarations": [],
+      "kind": "FuncDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "_"
+      },
+      "params": [],
+      "returnType": {
+        "className": "bool",
+        "kind": "ClassType"
+      },
+      "statements": [
+        {
+          "kind": "ReturnStmt",
+          "value": {
+            "kind": "BooleanLiteral",
+            "value": true
+          }
+        }
+      ]
+    },
+    {
+      "declarations": [],
+      "kind": "FuncDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "_3"
+      },
+      "params": [],
+      "returnType": {
+        "className": "bool",
+        "kind": "ClassType"
+      },
+      "statements": [
+        {
+          "kind": "ReturnStmt",
+          "value": {
+            "kind": "BooleanLiteral",
+            "value": true
+          }
+        }
+      ]
+    },
+    {
+      "declarations": [],
+      "kind": "FuncDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "N9"
+      },
+      "params": [
+        {
+          "identifier": {
+            "kind": "Identifier",
+            "name": "a"
+          },
+          "kind": "TypedVar",
+          "type": {
+            "className": "bool",
+            "kind": "ClassType"
+          }
+        },
+        {
+          "identifier": {
+            "kind": "Identifier",
+            "name": "b"
+          },
+          "kind": "TypedVar",
+          "type": {
+            "className": "bool",
+            "kind": "ClassType"
+          }
+        }
+      ],
+      "returnType": {
+        "className": "bool",
+        "kind": "ClassType"
+      },
+      "statements": [
+        {
+          "kind": "ReturnStmt",
+          "value": {
+            "kind": "BinaryExpr",
+            "left": {
+              "kind": "Identifier",
+              "name": "a"
+            },
+            "operator": "and",
+            "right": {
+              "kind": "Identifier",
+              "name": "b"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "declarations": [],
+      "kind": "ClassDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "G"
+      },
+      "superClass": {
+        "kind": "Identifier",
+        "name": "object"
+      }
+    },
+    {
+      "declarations": [
+        {
+          "kind": "VarDef",
+          "value": {
+            "kind": "BooleanLiteral",
+            "value": true
+          },
+          "var": {
+            "identifier": {
+              "kind": "Identifier",
+              "name": "v"
+            },
+            "kind": "TypedVar",
+            "type": {
+              "className": "bool",
+              "kind": "ClassType"
+            }
+          }
+        }
+      ],
+      "kind": "ClassDef",
+      "name": {
+        "kind": "Identifier",
+        "name": "p"
+      },
+      "superClass": {
+        "kind": "Identifier",
+        "name": "object"
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "BooleanLiteral",
+        "value": true
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "rb"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "bool",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "BooleanLiteral",
+        "value": true
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "p2"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "bool",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "BooleanLiteral",
+        "value": true
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "_9"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "bool",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "BooleanLiteral",
+        "value": false
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "_2"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "bool",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "BooleanLiteral",
+        "value": false
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "j7"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "bool",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "BooleanLiteral",
+        "value": true
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "K23"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "bool",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "IntegerLiteral",
+        "value": 0
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "r9"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "int",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "StringLiteral",
+        "value": ""
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "_5"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "str",
+          "kind": "ClassType"
+        }
+      }
+    },
+    {
+      "kind": "VarDef",
+      "value": {
+        "kind": "NoneLiteral"
+      },
+      "var": {
+        "identifier": {
+          "kind": "Identifier",
+          "name": "c"
+        },
+        "kind": "TypedVar",
+        "type": {
+          "className": "G",
+          "kind": "ClassType"
+        }
+      }
+    }
+  ],
+  "errors": {
+    "errors": [],
+    "kind": "Errors"
+  },
+  "kind": "Program",
+  "statements": [
+    {
+      "condition": {
+        "kind": "UnaryExpr",
+        "operand": {
+          "kind": "Identifier",
+          "name": "rb"
+        },
+        "operator": "not"
+      },
+      "elseBody": [],
+      "kind": "IfStmt",
+      "thenBody": [
+        {
+          "body": [
+            {
+              "kind": "AssignStmt",
+              "targets": [
+                {
+                  "kind": "Identifier",
+                  "name": "r9"
+                }
+              ],
+              "value": {
+                "kind": "IntegerLiteral",
+                "value": 1
+              }
+            },
+            {
+              "kind": "AssignStmt",
+              "targets": [
+                {
+                  "kind": "Identifier",
+                  "name": "_5"
+                }
+              ],
+              "value": {
+                "kind": "StringLiteral",
+                "value": "0"
+              }
+            }
+          ],
+          "condition": {
+            "condition": {
+              "condition": {
+                "args": [],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "_3"
+                },
+                "kind": "CallExpr"
+              },
+              "elseExpr": {
+                "condition": {
+                  "kind": "BooleanLiteral",
+                  "value": false
+                },
+                "elseExpr": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "kind": "IfExpr",
+                "thenExpr": {
+                  "kind": "BooleanLiteral",
+                  "value": false
+                }
+              },
+              "kind": "IfExpr",
+              "thenExpr": {
+                "kind": "BinaryExpr",
+                "left": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "operator": "!=",
+                "right": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                }
+              }
+            },
+            "elseExpr": {
+              "condition": {
+                "args": [],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "_"
+                },
+                "kind": "CallExpr"
+              },
+              "elseExpr": {
+                "condition": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "elseExpr": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "kind": "IfExpr",
+                "thenExpr": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                }
+              },
+              "kind": "IfExpr",
+              "thenExpr": {
+                "args": [],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "s1971"
+                },
+                "kind": "CallExpr"
+              }
+            },
+            "kind": "IfExpr",
+            "thenExpr": {
+              "kind": "UnaryExpr",
+              "operand": {
+                "kind": "UnaryExpr",
+                "operand": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "operator": "not"
+              },
+              "operator": "not"
+            }
+          },
+          "kind": "WhileStmt"
+        }
+      ]
+    },
+    {
+      "condition": {
+        "condition": {
+          "condition": {
+            "condition": {
+              "condition": {
+                "kind": "BooleanLiteral",
+                "value": false
+              },
+              "elseExpr": {
+                "kind": "BooleanLiteral",
+                "value": true
+              },
+              "kind": "IfExpr",
+              "thenExpr": {
+                "kind": "BooleanLiteral",
+                "value": false
+              }
+            },
+            "elseExpr": {
+              "condition": {
+                "kind": "BooleanLiteral",
+                "value": false
+              },
+              "elseExpr": {
+                "kind": "BooleanLiteral",
+                "value": false
+              },
+              "kind": "IfExpr",
+              "thenExpr": {
+                "args": [],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "s1971"
+                },
+                "kind": "CallExpr"
+              }
+            },
+            "kind": "IfExpr",
+            "thenExpr": {
+              "kind": "UnaryExpr",
+              "operand": {
+                "kind": "UnaryExpr",
+                "operand": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "operator": "not"
+              },
+              "operator": "not"
+            }
+          },
+          "elseExpr": {
+            "kind": "BooleanLiteral",
+            "value": false
+          },
+          "kind": "IfExpr",
+          "thenExpr": {
+            "kind": "BooleanLiteral",
+            "value": false
+          }
+        },
+        "elseExpr": {
+          "kind": "BinaryExpr",
+          "left": {
+            "kind": "BinaryExpr",
+            "left": {
+              "kind": "UnaryExpr",
+              "operand": {
+                "kind": "BooleanLiteral",
+                "value": false
+              },
+              "operator": "not"
+            },
+            "operator": "or",
+            "right": {
+              "kind": "BinaryExpr",
+              "left": {
+                "kind": "BinaryExpr",
+                "left": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "operator": "and",
+                "right": {
+                  "kind": "BooleanLiteral",
+                  "value": false
+                }
+              },
+              "operator": "and",
+              "right": {
+                "kind": "BooleanLiteral",
+                "value": true
+              }
+            }
+          },
+          "operator": "or",
+          "right": {
+            "kind": "UnaryExpr",
+            "operand": {
+              "kind": "UnaryExpr",
+              "operand": {
+                "kind": "BooleanLiteral",
+                "value": false
+              },
+              "operator": "not"
+            },
+            "operator": "not"
+          }
+        },
+        "kind": "IfExpr",
+        "thenExpr": {
+          "kind": "UnaryExpr",
+          "operand": {
+            "kind": "BinaryExpr",
+            "left": {
+              "args": [],
+              "function": {
+                "kind": "Identifier",
+                "name": "G"
+              },
+              "kind": "CallExpr"
+            },
+            "operator": "is",
+            "right": {
+              "kind": "Identifier",
+              "name": "c"
+            }
+          },
+          "operator": "not"
+        }
+      },
+      "elseBody": [
+        {
+          "expr": {
+            "kind": "BooleanLiteral",
+            "value": true
+          },
+          "kind": "ExprStmt"
+        },
+        {
+          "body": [
+            {
+              "kind": "AssignStmt",
+              "targets": [
+                {
+                  "kind": "Identifier",
+                  "name": "_9"
+                }
+              ],
+              "value": {
+                "kind": "BooleanLiteral",
+                "value": true
+              }
+            },
+            {
+              "kind": "AssignStmt",
+              "targets": [
+                {
+                  "kind": "Identifier",
+                  "name": "_5"
+                }
+              ],
+              "value": {
+                "kind": "StringLiteral",
+                "value": "False"
+              }
+            }
+          ],
+          "condition": {
+            "condition": {
+              "kind": "BooleanLiteral",
+              "value": false
+            },
+            "elseExpr": {
+              "condition": {
+                "kind": "BinaryExpr",
+                "left": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "operator": "and",
+                "right": {
+                  "kind": "BooleanLiteral",
+                  "value": false
+                }
+              },
+              "elseExpr": {
+                "kind": "BinaryExpr",
+                "left": {
+                  "kind": "BinaryExpr",
+                  "left": {
+                    "kind": "UnaryExpr",
+                    "operand": {
+                      "kind": "BooleanLiteral",
+                      "value": false
+                    },
+                    "operator": "not"
+                  },
+                  "operator": "and",
+                  "right": {
+                    "kind": "UnaryExpr",
+                    "operand": {
+                      "kind": "BooleanLiteral",
+                      "value": true
+                    },
+                    "operator": "not"
+                  }
+                },
+                "operator": "or",
+                "right": {
+                  "kind": "BooleanLiteral",
+                  "value": false
+                }
+              },
+              "kind": "IfExpr",
+              "thenExpr": {
+                "kind": "BooleanLiteral",
+                "value": true
+              }
+            },
+            "kind": "IfExpr",
+            "thenExpr": {
+              "kind": "BooleanLiteral",
+              "value": false
+            }
+          },
+          "kind": "WhileStmt"
+        },
+        {
+          "condition": {
+            "condition": {
+              "args": [
+                {
+                  "kind": "BooleanLiteral",
+                  "value": false
+                },
+                {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                }
+              ],
+              "function": {
+                "kind": "Identifier",
+                "name": "N9"
+              },
+              "kind": "CallExpr"
+            },
+            "elseExpr": {
+              "condition": {
+                "kind": "BinaryExpr",
+                "left": {
+                  "kind": "BooleanLiteral",
+                  "value": false
+                },
+                "operator": "and",
+                "right": {
+                  "kind": "BooleanLiteral",
+                  "value": false
+                }
+              },
+              "elseExpr": {
+                "kind": "Identifier",
+                "name": "K23"
+              },
+              "kind": "IfExpr",
+              "thenExpr": {
+                "kind": "UnaryExpr",
+                "operand": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "operator": "not"
+              }
+            },
+            "kind": "IfExpr",
+            "thenExpr": {
+              "kind": "BooleanLiteral",
+              "value": false
+            }
+          },
+          "elseBody": [
+            {
+              "kind": "AssignStmt",
+              "targets": [
+                {
+                  "kind": "Identifier",
+                  "name": "_9"
+                }
+              ],
+              "value": {
+                "kind": "BooleanLiteral",
+                "value": true
+              }
+            }
+          ],
+          "kind": "IfStmt",
+          "thenBody": []
+        }
+      ],
+      "kind": "IfStmt",
+      "thenBody": [
+        {
+          "body": [
+            {
+              "expr": {
+                "kind": "BooleanLiteral",
+                "value": true
+              },
+              "kind": "ExprStmt"
+            }
+          ],
+          "condition": {
+            "condition": {
+              "kind": "BooleanLiteral",
+              "value": false
+            },
+            "elseExpr": {
+              "kind": "UnaryExpr",
+              "operand": {
+                "kind": "BooleanLiteral",
+                "value": true
+              },
+              "operator": "not"
+            },
+            "kind": "IfExpr",
+            "thenExpr": {
+              "kind": "BooleanLiteral",
+              "value": true
+            }
+          },
+          "kind": "WhileStmt"
+        },
+        {
+          "body": [
+            {
+              "kind": "AssignStmt",
+              "targets": [
+                {
+                  "kind": "Identifier",
+                  "name": "p2"
+                }
+              ],
+              "value": {
+                "kind": "BooleanLiteral",
+                "value": false
+              }
+            }
+          ],
+          "condition": {
+            "condition": {
+              "condition": {
+                "kind": "BooleanLiteral",
+                "value": false
+              },
+              "elseExpr": {
+                "kind": "BooleanLiteral",
+                "value": false
+              },
+              "kind": "IfExpr",
+              "thenExpr": {
+                "kind": "BooleanLiteral",
+                "value": true
+              }
+            },
+            "elseExpr": {
+              "kind": "UnaryExpr",
+              "operand": {
+                "kind": "BooleanLiteral",
+                "value": true
+              },
+              "operator": "not"
+            },
+            "kind": "IfExpr",
+            "thenExpr": {
+              "kind": "BinaryExpr",
+              "left": {
+                "kind": "UnaryExpr",
+                "operand": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "operator": "not"
+              },
+              "operator": "and",
+              "right": {
+                "kind": "BooleanLiteral",
+                "value": true
+              }
+            }
+          },
+          "kind": "WhileStmt"
+        },
+        {
+          "body": [
+            {
+              "expr": {
+                "kind": "BooleanLiteral",
+                "value": true
+              },
+              "kind": "ExprStmt"
+            },
+            {
+              "expr": {
+                "kind": "BooleanLiteral",
+                "value": true
+              },
+              "kind": "ExprStmt"
+            }
+          ],
+          "condition": {
+            "kind": "BinaryExpr",
+            "left": {
+              "kind": "UnaryExpr",
+              "operand": {
+                "kind": "UnaryExpr",
+                "operand": {
+                  "kind": "BooleanLiteral",
+                  "value": true
+                },
+                "operator": "not"
+              },
+              "operator": "not"
+            },
+            "operator": "and",
+            "right": {
+              "kind": "MemberExpr",
+              "member": {
+                "kind": "Identifier",
+                "name": "v"
+              },
+              "object": {
+                "args": [],
+                "function": {
+                  "kind": "Identifier",
+                  "name": "p"
+                },
+                "kind": "CallExpr"
+              }
+            }
+          },
+          "kind": "WhileStmt"
+        }
+      ]
+    },
+    {
+      "condition": {
+        "condition": {
+          "kind": "Identifier",
+          "name": "_2"
+        },
+        "elseExpr": {
+          "condition": {
+            "condition": {
+              "kind": "BinaryExpr",
+              "left": {
+                "kind": "BooleanLiteral",
+                "value": false
+              },
+              "operator": "and",
+              "right": {
+                "kind": "BooleanLiteral",
+                "value": false
+              }
+            },
+            "elseExpr": {
+              "kind": "Identifier",
+              "name": "j7"
+            },
+            "kind": "IfExpr",
+            "thenExpr": {
+              "kind": "Identifier",
+              "name": "_2"
+            }
+          },
+          "elseExpr": {
+            "condition": {
+              "kind": "BooleanLiteral",
+              "value": true
+            },
+            "elseExpr": {
+              "condition": {
+                "kind": "BooleanLiteral",
+                "value": false
+              },
+              "elseExpr": {
+                "condition": {
+                  "kind": "BinaryExpr",
+                  "left": {
+                    "kind": "BooleanLiteral",
+                    "value": false
+                  },
+                  "operator": "and",
+                  "right": {
+                    "kind": "BooleanLiteral",
+                    "value": false
+                  }
+                },
+                "elseExpr": {
+                  "kind": "BinaryExpr",
+                  "left": {
+                    "kind": "BooleanLiteral",
+                    "value": false
+                  },
+                  "operator": "and",
+                  "right": {
+                    "kind": "BooleanLiteral",
+                    "value": true
+                  }
+                },
+                "kind": "IfExpr",
+                "thenExpr": {
+                  "kind": "BinaryExpr",
+                  "left": {
+                    "kind": "BinaryExpr",
+                    "left": {
+                      "kind": "BooleanLiteral",
+                      "value": true
+                    },
+                    "operator": "and",
+                    "right": {
+                      "kind": "BooleanLiteral",
+                      "value": false
+                    }
+                  },
+                  "operator": "and",
+                  "right": {
+                    "kind": "BooleanLiteral",
+                    "value": true
+                  }
+                }
+              },
+              "kind": "IfExpr",
+              "thenExpr": {
+                "kind": "BooleanLiteral",
+                "value": true
+              }
+            },
+            "kind": "IfExpr",
+            "thenExpr": {
+              "kind": "BinaryExpr",
+              "left": {
+                "kind": "UnaryExpr",
+                "operand": {
+                  "kind": "BinaryExpr",
+                  "left": {
+                    "kind": "Identifier",
+                    "name": "rb"
+                  },
+                  "operator": "==",
+                  "right": {
+                    "kind": "BooleanLiteral",
+                    "value": false
+                  }
+                },
+                "operator": "not"
+              },
+              "operator": "or",
+              "right": {
+                "kind": "BooleanLiteral",
+                "value": false
+              }
+            }
+          },
+          "kind": "IfExpr",
+          "thenExpr": {
+            "kind": "BinaryExpr",
+            "left": {
+              "args": [],
+              "function": {
+                "kind": "Identifier",
+                "name": "G"
+              },
+              "kind": "CallExpr"
+            },
+            "operator": "is",
+            "right": {
+              "kind": "Identifier",
+              "name": "c"
+            }
+          }
+        },
+        "kind": "IfExpr",
+        "thenExpr": {
+          "kind": "UnaryExpr",
+          "operand": {
+            "kind": "Identifier",
+            "name": "_2"
+          },
+          "operator": "not"
+        }
+      },
+      "elseBody": [],
+      "kind": "IfStmt",
+      "thenBody": [
+        {
+          "kind": "AssignStmt",
+          "targets": [
+            {
+              "kind": "Identifier",
+              "name": "_5"
+            }
+          ],
+          "value": {
+            "kind": "StringLiteral",
+            "value": "not True"
+          }
+        }
+      ]
+    },
+    {
+      "expr": {
+        "args": [
+          {
+            "kind": "Identifier",
+            "name": "_5"
+          }
+        ],
+        "function": {
+          "kind": "Identifier",
+          "name": "print"
+        },
+        "kind": "CallExpr"
+      },
+      "kind": "ExprStmt"
+    }
+  ]
+}
