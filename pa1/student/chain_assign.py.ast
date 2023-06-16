@@ -1,0 +1,95 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 1, 31 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "AssignStmt",
+    "location" : [ 1, 1, 1, 30 ],
+    "targets" : [ {
+      "kind" : "MemberExpr",
+      "location" : [ 1, 1, 1, 3 ],
+      "object" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 1, 1, 1 ],
+        "name" : "q"
+      },
+      "member" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 3, 1, 3 ],
+        "name" : "l"
+      }
+    }, {
+      "kind" : "IndexExpr",
+      "location" : [ 1, 7, 1, 10 ],
+      "list" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 7, 1, 7 ],
+        "name" : "x"
+      },
+      "index" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 9, 1, 9 ],
+        "name" : "q"
+      }
+    }, {
+      "kind" : "Identifier",
+      "location" : [ 1, 14, 1, 14 ],
+      "name" : "a"
+    } ],
+    "value" : {
+      "kind" : "MemberExpr",
+      "location" : [ 1, 18, 1, 30 ],
+      "object" : {
+        "kind" : "IndexExpr",
+        "location" : [ 1, 18, 1, 28 ],
+        "list" : {
+          "kind" : "MethodCallExpr",
+          "location" : [ 1, 18, 1, 25 ],
+          "method" : {
+            "kind" : "MemberExpr",
+            "location" : [ 1, 18, 1, 22 ],
+            "object" : {
+              "kind" : "MemberExpr",
+              "location" : [ 1, 18, 1, 20 ],
+              "object" : {
+                "kind" : "Identifier",
+                "location" : [ 1, 18, 1, 18 ],
+                "name" : "b"
+              },
+              "member" : {
+                "kind" : "Identifier",
+                "location" : [ 1, 20, 1, 20 ],
+                "name" : "c"
+              }
+            },
+            "member" : {
+              "kind" : "Identifier",
+              "location" : [ 1, 22, 1, 22 ],
+              "name" : "d"
+            }
+          },
+          "args" : [ {
+            "kind" : "Identifier",
+            "location" : [ 1, 24, 1, 24 ],
+            "name" : "e"
+          } ]
+        },
+        "index" : {
+          "kind" : "Identifier",
+          "location" : [ 1, 27, 1, 27 ],
+          "name" : "f"
+        }
+      },
+      "member" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 30, 1, 30 ],
+        "name" : "g"
+      }
+    }
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

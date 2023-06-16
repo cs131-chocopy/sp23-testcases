@@ -1,0 +1,380 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 11, 15 ],
+  "declarations" : [ {
+    "kind" : "ClassDef",
+    "location" : [ 1, 1, 2, 16 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 7, 1, 7 ],
+      "name" : "A"
+    },
+    "superClass" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 9, 1, 14 ],
+      "name" : "object"
+    },
+    "declarations" : [ {
+      "kind" : "VarDef",
+      "location" : [ 2, 5, 2, 15 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 2, 5, 2, 10 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 2, 5, 2, 5 ],
+          "name" : "x"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 2, 8, 2, 10 ],
+          "className" : "int"
+        }
+      },
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 2, 14, 2, 15 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "value" : 10
+      }
+    } ]
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 5, 1, 5, 15 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 5, 1, 5, 8 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 5, 1, 5, 1 ],
+        "name" : "x"
+      },
+      "type" : {
+        "kind" : "ListType",
+        "location" : [ 5, 4, 5, 8 ],
+        "elementType" : {
+          "kind" : "ListType",
+          "location" : [ 5, 5, 5, 7 ],
+          "elementType" : {
+            "kind" : "ClassType",
+            "location" : [ 5, 6, 5, 6 ],
+            "className" : "A"
+          }
+        }
+      }
+    },
+    "value" : {
+      "kind" : "NoneLiteral",
+      "location" : [ 5, 12, 5, 15 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "<None>"
+      }
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 6, 1, 6, 13 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 6, 1, 6, 6 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 6, 1, 6, 1 ],
+        "name" : "y"
+      },
+      "type" : {
+        "kind" : "ListType",
+        "location" : [ 6, 4, 6, 6 ],
+        "elementType" : {
+          "kind" : "ClassType",
+          "location" : [ 6, 5, 6, 5 ],
+          "className" : "A"
+        }
+      }
+    },
+    "value" : {
+      "kind" : "NoneLiteral",
+      "location" : [ 6, 10, 6, 13 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "<None>"
+      }
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 7, 1, 7, 17 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 7, 1, 7, 10 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 7, 1, 7, 1 ],
+        "name" : "z"
+      },
+      "type" : {
+        "kind" : "ListType",
+        "location" : [ 7, 4, 7, 10 ],
+        "elementType" : {
+          "kind" : "ListType",
+          "location" : [ 7, 5, 7, 9 ],
+          "elementType" : {
+            "kind" : "ClassType",
+            "location" : [ 7, 6, 7, 8 ],
+            "className" : "int"
+          }
+        }
+      }
+    },
+    "value" : {
+      "kind" : "NoneLiteral",
+      "location" : [ 7, 14, 7, 17 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "<None>"
+      }
+    }
+  } ],
+  "statements" : [ {
+    "kind" : "AssignStmt",
+    "location" : [ 8, 1, 8, 12 ],
+    "errorMsg" : "Expected type `[[A]]`; got type `[[<None>]]`",
+    "targets" : [ {
+      "kind" : "Identifier",
+      "location" : [ 8, 1, 8, 1 ],
+      "inferredType" : {
+        "kind" : "ListValueType",
+        "elementType" : {
+          "kind" : "ListValueType",
+          "elementType" : {
+            "kind" : "ClassValueType",
+            "className" : "A"
+          }
+        }
+      },
+      "name" : "x"
+    } ],
+    "value" : {
+      "kind" : "ListExpr",
+      "location" : [ 8, 5, 8, 12 ],
+      "inferredType" : {
+        "kind" : "ListValueType",
+        "elementType" : {
+          "kind" : "ListValueType",
+          "elementType" : {
+            "kind" : "ClassValueType",
+            "className" : "<None>"
+          }
+        }
+      },
+      "elements" : [ {
+        "kind" : "ListExpr",
+        "location" : [ 8, 6, 8, 11 ],
+        "inferredType" : {
+          "kind" : "ListValueType",
+          "elementType" : {
+            "kind" : "ClassValueType",
+            "className" : "<None>"
+          }
+        },
+        "elements" : [ {
+          "kind" : "NoneLiteral",
+          "location" : [ 8, 7, 8, 10 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "<None>"
+          }
+        } ]
+      } ]
+    }
+  }, {
+    "kind" : "AssignStmt",
+    "location" : [ 9, 1, 9, 14 ],
+    "errorMsg" : "Right-hand side of multiple assignment may not be [<None>]",
+    "targets" : [ {
+      "kind" : "Identifier",
+      "location" : [ 9, 1, 9, 1 ],
+      "inferredType" : {
+        "kind" : "ListValueType",
+        "elementType" : {
+          "kind" : "ClassValueType",
+          "className" : "A"
+        }
+      },
+      "name" : "y"
+    }, {
+      "kind" : "Identifier",
+      "location" : [ 9, 5, 9, 5 ],
+      "inferredType" : {
+        "kind" : "ListValueType",
+        "elementType" : {
+          "kind" : "ListValueType",
+          "elementType" : {
+            "kind" : "ClassValueType",
+            "className" : "int"
+          }
+        }
+      },
+      "name" : "z"
+    } ],
+    "value" : {
+      "kind" : "ListExpr",
+      "location" : [ 9, 9, 9, 14 ],
+      "inferredType" : {
+        "kind" : "ListValueType",
+        "elementType" : {
+          "kind" : "ClassValueType",
+          "className" : "<None>"
+        }
+      },
+      "elements" : [ {
+        "kind" : "NoneLiteral",
+        "location" : [ 9, 10, 9, 13 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "<None>"
+        }
+      } ]
+    }
+  }, {
+    "kind" : "AssignStmt",
+    "location" : [ 10, 1, 10, 10 ],
+    "targets" : [ {
+      "kind" : "IndexExpr",
+      "location" : [ 10, 1, 10, 4 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "A"
+      },
+      "list" : {
+        "kind" : "Identifier",
+        "location" : [ 10, 1, 10, 1 ],
+        "inferredType" : {
+          "kind" : "ListValueType",
+          "elementType" : {
+            "kind" : "ClassValueType",
+            "className" : "A"
+          }
+        },
+        "name" : "y"
+      },
+      "index" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 10, 3, 10, 3 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "value" : 0
+      }
+    } ],
+    "value" : {
+      "kind" : "CallExpr",
+      "location" : [ 10, 8, 10, 10 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "A"
+      },
+      "function" : {
+        "kind" : "Identifier",
+        "location" : [ 10, 8, 10, 8 ],
+        "name" : "A"
+      },
+      "args" : [ ]
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 11, 1, 11, 14 ],
+    "expr" : {
+      "kind" : "CallExpr",
+      "location" : [ 11, 1, 11, 14 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "<None>"
+      },
+      "function" : {
+        "kind" : "Identifier",
+        "location" : [ 11, 1, 11, 5 ],
+        "inferredType" : {
+          "kind" : "FuncType",
+          "parameters" : [ {
+            "kind" : "ClassValueType",
+            "className" : "object"
+          } ],
+          "returnType" : {
+            "kind" : "ClassValueType",
+            "className" : "<None>"
+          }
+        },
+        "name" : "print"
+      },
+      "args" : [ {
+        "kind" : "IndexExpr",
+        "location" : [ 11, 7, 11, 13 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "list" : {
+          "kind" : "IndexExpr",
+          "location" : [ 11, 7, 11, 10 ],
+          "inferredType" : {
+            "kind" : "ListValueType",
+            "elementType" : {
+              "kind" : "ClassValueType",
+              "className" : "int"
+            }
+          },
+          "list" : {
+            "kind" : "Identifier",
+            "location" : [ 11, 7, 11, 7 ],
+            "inferredType" : {
+              "kind" : "ListValueType",
+              "elementType" : {
+                "kind" : "ListValueType",
+                "elementType" : {
+                  "kind" : "ClassValueType",
+                  "className" : "int"
+                }
+              }
+            },
+            "name" : "z"
+          },
+          "index" : {
+            "kind" : "IntegerLiteral",
+            "location" : [ 11, 9, 11, 9 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "int"
+            },
+            "value" : 0
+          }
+        },
+        "index" : {
+          "kind" : "IntegerLiteral",
+          "location" : [ 11, 12, 11, 12 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "int"
+          },
+          "value" : 0
+        }
+      } ]
+    }
+  } ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 8, 1, 8, 12 ],
+      "message" : "Expected type `[[A]]`; got type `[[<None>]]`"
+    }, {
+      "kind" : "CompilerError",
+      "location" : [ 9, 1, 9, 14 ],
+      "message" : "Right-hand side of multiple assignment may not be [<None>]"
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

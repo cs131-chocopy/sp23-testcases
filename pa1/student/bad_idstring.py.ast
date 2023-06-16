@@ -1,0 +1,16 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 9, 1, 9 ],
+  "declarations" : [ ],
+  "statements" : [ ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 1, 10, 1, 16 ],
+      "message" : "Parse error near token STRING: \"0asdf\"",
+      "syntax" : true
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

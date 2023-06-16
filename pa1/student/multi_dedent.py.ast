@@ -1,0 +1,112 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 6, 2 ],
+  "declarations" : [ {
+    "kind" : "VarDef",
+    "location" : [ 1, 1, 1, 15 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 1, 1, 1, 8 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 1, 1, 1 ],
+        "name" : "L"
+      },
+      "type" : {
+        "kind" : "ListType",
+        "location" : [ 1, 4, 1, 8 ],
+        "elementType" : {
+          "kind" : "ClassType",
+          "location" : [ 1, 5, 1, 7 ],
+          "className" : "int"
+        }
+      }
+    },
+    "value" : {
+      "kind" : "NoneLiteral",
+      "location" : [ 1, 12, 1, 15 ]
+    }
+  } ],
+  "statements" : [ {
+    "kind" : "AssignStmt",
+    "location" : [ 2, 1, 2, 13 ],
+    "targets" : [ {
+      "kind" : "Identifier",
+      "location" : [ 2, 1, 2, 1 ],
+      "name" : "L"
+    } ],
+    "value" : {
+      "kind" : "ListExpr",
+      "location" : [ 2, 5, 2, 13 ],
+      "elements" : [ {
+        "kind" : "IntegerLiteral",
+        "location" : [ 2, 6, 2, 6 ],
+        "value" : 1
+      }, {
+        "kind" : "IntegerLiteral",
+        "location" : [ 2, 9, 2, 9 ],
+        "value" : 2
+      }, {
+        "kind" : "IntegerLiteral",
+        "location" : [ 2, 12, 2, 12 ],
+        "value" : 3
+      } ]
+    }
+  }, {
+    "kind" : "ForStmt",
+    "location" : [ 3, 1, 6, 2 ],
+    "identifier" : {
+      "kind" : "Identifier",
+      "location" : [ 3, 5, 3, 5 ],
+      "name" : "i"
+    },
+    "iterable" : {
+      "kind" : "Identifier",
+      "location" : [ 3, 10, 3, 10 ],
+      "name" : "L"
+    },
+    "body" : [ {
+      "kind" : "ForStmt",
+      "location" : [ 4, 5, 6, 1 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 4, 9, 4, 9 ],
+        "name" : "j"
+      },
+      "iterable" : {
+        "kind" : "Identifier",
+        "location" : [ 4, 14, 4, 14 ],
+        "name" : "L"
+      },
+      "body" : [ {
+        "kind" : "AssignStmt",
+        "location" : [ 5, 9, 5, 17 ],
+        "targets" : [ {
+          "kind" : "Identifier",
+          "location" : [ 5, 9, 5, 9 ],
+          "name" : "i"
+        } ],
+        "value" : {
+          "kind" : "BinaryExpr",
+          "location" : [ 5, 13, 5, 17 ],
+          "left" : {
+            "kind" : "Identifier",
+            "location" : [ 5, 13, 5, 13 ],
+            "name" : "i"
+          },
+          "operator" : "+",
+          "right" : {
+            "kind" : "Identifier",
+            "location" : [ 5, 17, 5, 17 ],
+            "name" : "j"
+          }
+        }
+      } ]
+    } ]
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 8, 6 ],
+  "declarations" : [ {
+    "kind" : "FuncDef",
+    "location" : [ 1, 1, 8, 0 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 5, 1, 7 ],
+      "name" : "foo"
+    },
+    "params" : [ ],
+    "returnType" : {
+      "kind" : "ClassType",
+      "location" : [ 1, 14, 1, 16 ],
+      "className" : "int"
+    },
+    "declarations" : [ {
+      "kind" : "VarDef",
+      "location" : [ 2, 5, 2, 13 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 2, 5, 2, 9 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 2, 5, 2, 5 ],
+          "name" : "a"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 2, 7, 2, 9 ],
+          "className" : "int"
+        }
+      },
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 2, 13, 2, 13 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "value" : 1
+      }
+    } ],
+    "statements" : [ {
+      "kind" : "IfStmt",
+      "location" : [ 3, 5, 8, 0 ],
+      "condition" : {
+        "kind" : "BinaryExpr",
+        "location" : [ 3, 8, 3, 12 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "left" : {
+          "kind" : "Identifier",
+          "location" : [ 3, 8, 3, 8 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "int"
+          },
+          "name" : "a"
+        },
+        "operator" : ">",
+        "right" : {
+          "kind" : "IntegerLiteral",
+          "location" : [ 3, 12, 3, 12 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "int"
+          },
+          "value" : 1
+        }
+      },
+      "thenBody" : [ {
+        "kind" : "ReturnStmt",
+        "location" : [ 4, 9, 4, 16 ],
+        "value" : {
+          "kind" : "IntegerLiteral",
+          "location" : [ 4, 16, 4, 16 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "int"
+          },
+          "value" : 1
+        }
+      } ],
+      "elseBody" : [ {
+        "kind" : "ReturnStmt",
+        "location" : [ 6, 9, 6, 20 ],
+        "errorMsg" : "Expected type `int`; got type `str`",
+        "value" : {
+          "kind" : "StringLiteral",
+          "location" : [ 6, 16, 6, 20 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "str"
+          },
+          "value" : "bar"
+        }
+      } ]
+    } ]
+  } ],
+  "statements" : [ {
+    "kind" : "ExprStmt",
+    "location" : [ 8, 1, 8, 5 ],
+    "expr" : {
+      "kind" : "CallExpr",
+      "location" : [ 8, 1, 8, 5 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "int"
+      },
+      "function" : {
+        "kind" : "Identifier",
+        "location" : [ 8, 1, 8, 3 ],
+        "inferredType" : {
+          "kind" : "FuncType",
+          "parameters" : [ ],
+          "returnType" : {
+            "kind" : "ClassValueType",
+            "className" : "int"
+          }
+        },
+        "name" : "foo"
+      },
+      "args" : [ ]
+    }
+  } ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 6, 9, 6, 20 ],
+      "message" : "Expected type `int`; got type `str`"
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

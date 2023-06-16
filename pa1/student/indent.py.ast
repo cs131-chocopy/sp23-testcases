@@ -1,0 +1,174 @@
+{
+  "kind" : "Program",
+  "location" : [ 2, 1, 11, 3 ],
+  "declarations" : [ {
+    "kind" : "VarDef",
+    "location" : [ 2, 1, 2, 32 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 2, 1, 2, 19 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 2, 1, 2, 1 ],
+        "name" : "x"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 2, 17, 2, 19 ],
+        "className" : "int"
+      }
+    },
+    "value" : {
+      "kind" : "IntegerLiteral",
+      "location" : [ 2, 32, 2, 32 ],
+      "value" : 0
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 3, 1, 3, 21 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 3, 1, 3, 15 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 3, 1, 3, 1 ],
+        "name" : "y"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 3, 13, 3, 15 ],
+        "className" : "int"
+      }
+    },
+    "value" : {
+      "kind" : "IntegerLiteral",
+      "location" : [ 3, 19, 3, 21 ],
+      "value" : 123
+    }
+  } ],
+  "statements" : [ {
+    "kind" : "WhileStmt",
+    "location" : [ 4, 1, 11, 3 ],
+    "condition" : {
+      "kind" : "StringLiteral",
+      "location" : [ 4, 13, 4, 31 ],
+      "value" : "\n          \"\\ "
+    },
+    "body" : [ {
+      "kind" : "IfStmt",
+      "location" : [ 5, 5, 7, 4 ],
+      "condition" : {
+        "kind" : "BooleanLiteral",
+        "location" : [ 5, 8, 5, 12 ],
+        "value" : false
+      },
+      "thenBody" : [ {
+        "kind" : "ExprStmt",
+        "location" : [ 6, 19, 6, 21 ],
+        "expr" : {
+          "kind" : "IntegerLiteral",
+          "location" : [ 6, 19, 6, 21 ],
+          "value" : 123
+        }
+      } ],
+      "elseBody" : [ ]
+    }, {
+      "kind" : "ForStmt",
+      "location" : [ 7, 5, 11, 2 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 7, 9, 7, 9 ],
+        "name" : "x"
+      },
+      "iterable" : {
+        "kind" : "ListExpr",
+        "location" : [ 7, 14, 7, 20 ],
+        "elements" : [ {
+          "kind" : "IntegerLiteral",
+          "location" : [ 7, 15, 7, 15 ],
+          "value" : 1
+        }, {
+          "kind" : "IntegerLiteral",
+          "location" : [ 7, 17, 7, 17 ],
+          "value" : 2
+        }, {
+          "kind" : "IntegerLiteral",
+          "location" : [ 7, 19, 7, 19 ],
+          "value" : 3
+        } ]
+      },
+      "body" : [ {
+        "kind" : "ForStmt",
+        "location" : [ 8, 10, 11, 1 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 8, 14, 8, 14 ],
+          "name" : "y"
+        },
+        "iterable" : {
+          "kind" : "ListExpr",
+          "location" : [ 8, 19, 8, 31 ],
+          "elements" : [ {
+            "kind" : "ListExpr",
+            "location" : [ 8, 20, 8, 24 ],
+            "elements" : [ {
+              "kind" : "IntegerLiteral",
+              "location" : [ 8, 21, 8, 21 ],
+              "value" : 1
+            }, {
+              "kind" : "IntegerLiteral",
+              "location" : [ 8, 23, 8, 23 ],
+              "value" : 2
+            } ]
+          }, {
+            "kind" : "ListExpr",
+            "location" : [ 8, 26, 8, 30 ],
+            "elements" : [ {
+              "kind" : "IntegerLiteral",
+              "location" : [ 8, 27, 8, 27 ],
+              "value" : 3
+            }, {
+              "kind" : "IntegerLiteral",
+              "location" : [ 8, 29, 8, 29 ],
+              "value" : 4
+            } ]
+          } ]
+        },
+        "body" : [ {
+          "kind" : "ExprStmt",
+          "location" : [ 9, 11, 9, 15 ],
+          "expr" : {
+            "kind" : "BinaryExpr",
+            "location" : [ 9, 11, 9, 15 ],
+            "left" : {
+              "kind" : "IntegerLiteral",
+              "location" : [ 9, 11, 9, 11 ],
+              "value" : 1
+            },
+            "operator" : "+",
+            "right" : {
+              "kind" : "BinaryExpr",
+              "location" : [ 9, 13, 9, 15 ],
+              "left" : {
+                "kind" : "IntegerLiteral",
+                "location" : [ 9, 13, 9, 13 ],
+                "value" : 2
+              },
+              "operator" : "*",
+              "right" : {
+                "kind" : "IntegerLiteral",
+                "location" : [ 9, 15, 9, 15 ],
+                "value" : 3
+              }
+            }
+          }
+        } ]
+      } ]
+    } ]
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

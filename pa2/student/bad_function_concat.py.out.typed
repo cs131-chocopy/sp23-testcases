@@ -1,0 +1,149 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 7, 15 ],
+  "declarations" : [ {
+    "kind" : "ClassDef",
+    "location" : [ 1, 1, 7, 0 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 7, 1, 7 ],
+      "name" : "A"
+    },
+    "superClass" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 9, 1, 14 ],
+      "name" : "object"
+    },
+    "declarations" : [ {
+      "kind" : "VarDef",
+      "location" : [ 2, 5, 2, 15 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 2, 5, 2, 10 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 2, 5, 2, 5 ],
+          "name" : "a"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 2, 8, 2, 10 ],
+          "className" : "int"
+        }
+      },
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 2, 14, 2, 15 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "value" : 42
+      }
+    }, {
+      "kind" : "FuncDef",
+      "location" : [ 3, 5, 4, 13 ],
+      "name" : {
+        "kind" : "Identifier",
+        "location" : [ 3, 9, 3, 16 ],
+        "name" : "__init__"
+      },
+      "params" : [ {
+        "kind" : "TypedVar",
+        "location" : [ 3, 18, 3, 25 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 3, 18, 3, 21 ],
+          "name" : "self"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 3, 23, 3, 25 ],
+          "className" : "A"
+        }
+      } ],
+      "returnType" : {
+        "kind" : "ClassType",
+        "location" : [ 3, 27, 3, 27 ],
+        "className" : "<None>"
+      },
+      "declarations" : [ ],
+      "statements" : [ ]
+    } ]
+  } ],
+  "statements" : [ {
+    "kind" : "ExprStmt",
+    "location" : [ 7, 1, 7, 14 ],
+    "expr" : {
+      "kind" : "CallExpr",
+      "location" : [ 7, 1, 7, 14 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "<None>"
+      },
+      "function" : {
+        "kind" : "Identifier",
+        "location" : [ 7, 1, 7, 5 ],
+        "inferredType" : {
+          "kind" : "FuncType",
+          "parameters" : [ {
+            "kind" : "ClassValueType",
+            "className" : "object"
+          } ],
+          "returnType" : {
+            "kind" : "ClassValueType",
+            "className" : "<None>"
+          }
+        },
+        "name" : "print"
+      },
+      "args" : [ {
+        "kind" : "BinaryExpr",
+        "location" : [ 7, 7, 7, 13 ],
+        "errorMsg" : "Cannot apply operator `+` on types `A` and `object`",
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "object"
+        },
+        "left" : {
+          "kind" : "CallExpr",
+          "location" : [ 7, 7, 7, 9 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "A"
+          },
+          "function" : {
+            "kind" : "Identifier",
+            "location" : [ 7, 7, 7, 7 ],
+            "name" : "A"
+          },
+          "args" : [ ]
+        },
+        "operator" : "+",
+        "right" : {
+          "kind" : "Identifier",
+          "location" : [ 7, 13, 7, 13 ],
+          "errorMsg" : "Not a variable: A",
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "object"
+          },
+          "name" : "A"
+        }
+      } ]
+    }
+  } ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 7, 13, 7, 13 ],
+      "message" : "Not a variable: A"
+    }, {
+      "kind" : "CompilerError",
+      "location" : [ 7, 7, 7, 13 ],
+      "message" : "Cannot apply operator `+` on types `A` and `object`"
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

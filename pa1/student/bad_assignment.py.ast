@@ -1,0 +1,29 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 13, 1, 18 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "AssignStmt",
+    "location" : [ 1, 13, 1, 17 ],
+    "targets" : [ {
+      "kind" : "Identifier",
+      "location" : [ 1, 13, 1, 13 ],
+      "name" : "e"
+    } ],
+    "value" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 17, 1, 17 ],
+      "name" : "f"
+    }
+  } ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 1, 2, 1, 2 ],
+      "message" : "Parse error near token COMMA: ,",
+      "syntax" : true
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

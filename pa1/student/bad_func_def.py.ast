@@ -1,0 +1,26 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 20, 1, 20 ],
+  "declarations" : [ ],
+  "statements" : [ ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 1, 7, 1, 7 ],
+      "message" : "Parse error near token COMMA: ,",
+      "syntax" : true
+    }, {
+      "kind" : "CompilerError",
+      "location" : [ 1, 14, 1, 14 ],
+      "message" : "Parse error near token COMMA: ,",
+      "syntax" : true
+    }, {
+      "kind" : "CompilerError",
+      "location" : [ 1, 21, 1, 21 ],
+      "message" : "Parse error near token RPAREN: )",
+      "syntax" : true
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 1, 57 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "ExprStmt",
+    "location" : [ 1, 1, 1, 56 ],
+    "expr" : {
+      "kind" : "IfExpr",
+      "location" : [ 1, 1, 1, 56 ],
+      "condition" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 26, 1, 27 ],
+        "name" : "id"
+      },
+      "thenExpr" : {
+        "kind" : "BinaryExpr",
+        "location" : [ 1, 1, 1, 21 ],
+        "left" : {
+          "kind" : "BinaryExpr",
+          "location" : [ 1, 1, 1, 15 ],
+          "left" : {
+            "kind" : "Identifier",
+            "location" : [ 1, 1, 1, 2 ],
+            "name" : "id"
+          },
+          "operator" : "or",
+          "right" : {
+            "kind" : "BinaryExpr",
+            "location" : [ 1, 7, 1, 15 ],
+            "left" : {
+              "kind" : "Identifier",
+              "location" : [ 1, 7, 1, 8 ],
+              "name" : "id"
+            },
+            "operator" : "and",
+            "right" : {
+              "kind" : "Identifier",
+              "location" : [ 1, 14, 1, 15 ],
+              "name" : "id"
+            }
+          }
+        },
+        "operator" : "or",
+        "right" : {
+          "kind" : "Identifier",
+          "location" : [ 1, 20, 1, 21 ],
+          "name" : "id"
+        }
+      },
+      "elseExpr" : {
+        "kind" : "IfExpr",
+        "location" : [ 1, 34, 1, 56 ],
+        "condition" : {
+          "kind" : "Identifier",
+          "location" : [ 1, 47, 1, 48 ],
+          "name" : "id"
+        },
+        "thenExpr" : {
+          "kind" : "BinaryExpr",
+          "location" : [ 1, 34, 1, 42 ],
+          "left" : {
+            "kind" : "Identifier",
+            "location" : [ 1, 34, 1, 35 ],
+            "name" : "id"
+          },
+          "operator" : "and",
+          "right" : {
+            "kind" : "Identifier",
+            "location" : [ 1, 41, 1, 42 ],
+            "name" : "id"
+          }
+        },
+        "elseExpr" : {
+          "kind" : "Identifier",
+          "location" : [ 1, 55, 1, 56 ],
+          "name" : "id"
+        }
+      }
+    }
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}
